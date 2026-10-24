@@ -12,21 +12,24 @@ import SkillsApp from '../apps/SkillsApp';
 import ResumeApp from '../apps/ResumeApp';
 import ContactApp from '../apps/ContactApp';
 import AboutApp from '../apps/AboutApp';
+import ServicesApp from '../apps/ServicesApp';
 import MobileWindow from '../mobile/MobileWindow';
 
 const APPS: Record<AppId, ComponentType<{ window: WindowState }>> = {
   about: AboutApp,
   projects: ProjectsApp,
   'project-detail': ProjectDetailApp,
+  services: ServicesApp,
   skills: SkillsApp,
   resume: ResumeApp,
   contact: ContactApp,
 };
 
 const TITLES: Record<AppId, string> = {
-  about: 'About — Ammar',
-  projects: 'Projects',
+  about: 'Proof & Story — Ammar',
+  projects: 'Selected Work',
   'project-detail': 'Project Details',
+  services: 'Services & Capabilities',
   skills: 'Skills — Terminal',
   resume: 'Resume.pdf',
   contact: 'New Message',

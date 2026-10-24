@@ -19,9 +19,10 @@ interface DesktopStore {
 }
 
 const DEFAULT_SIZES: Record<AppId, { width: number; height: number }> = {
-  about:          { width: 720, height: 520 },
-  projects:       { width: 860, height: 580 },
+  about:          { width: 720, height: 540 },
+  projects:       { width: 880, height: 600 },
   'project-detail': { width: 900, height: 640 },
+  services:       { width: 860, height: 580 },
   skills:         { width: 640, height: 480 },
   resume:         { width: 780, height: 680 },
   contact:        { width: 640, height: 520 },

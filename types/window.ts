@@ -2,6 +2,7 @@ export type AppId =
   | 'about'
   | 'projects'
   | 'project-detail'
+  | 'services'
   | 'skills'
   | 'resume'
   | 'contact';
