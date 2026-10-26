@@ -71,16 +71,16 @@ const FEATURED_PROJECTS: PortfolioProject[] = [
   {
     id: 'whispyr-ai-dashboard',
     slug: 'whispyr-ai',
-    title: 'Whispyr AI — Customizable Brokerage Dashboard',
+    title: 'Whispyr AI — Dashboard Customization Feature',
     category: 'saas',
     deliverableType: 'Advanced SaaS Feature',
     badge: 'Live SaaS Feature',
-    metric: 'Real Estate CRM Analytics',
+    metric: 'Customization Engine',
     description:
-      'Engineered the customizable analytics and lead management dashboard for Whispyr AI, an AI real estate platform tracking leads, cold calls, WhatsApp chats, and agent performance.',
+      'Engineered the dashboard customization engine for Whispyr AI, an AI real estate platform. Enables brokerages and agents to customize KPI widgets, pipeline metrics, and workspace views.',
     longDescription:
-      'Built high-density, customizable dashboard components for real estate brokerages. Allows teams to monitor deal pipelines, incoming WhatsApp conversion funnels, agent response times, and customizable KPI widget arrangements.',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Chart Analytics', 'REST APIs'],
+      'Engineered the modular dashboard customization feature for real estate brokerages. Allows teams to tailor their analytics workspace: configuring active KPI widgets, dynamic layout persistence, lead funnel filtering, and custom performance metrics suited to their specific sales workflow.',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'State Management', 'REST APIs'],
     screenshots: ['/screenshots/whispyr.png'],
     liveUrl: 'https://www.whispyrai.com/',
     featured: true,

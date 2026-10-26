@@ -65,7 +65,7 @@ const SERVICES = [
       'Clean modular React/Next.js component architecture',
       'Seamless REST / GraphQL backend API wiring',
     ],
-    proof: 'Live Reference: Whispyr AI (Real Estate CRM Brokerage Dashboard)',
+    proof: 'Live Reference: Whispyr AI (Real Estate CRM Dashboard Customization Engine)',
     timeline: '1–2 weeks',
   },
 ];

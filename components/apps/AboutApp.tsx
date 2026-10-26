@@ -88,7 +88,7 @@ export default function AboutApp() {
               <BarChart3 className="h-4 w-4 text-sky-400" /> Advanced SaaS Feature (Whispyr AI)
             </div>
             <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
-              Engineered the core customizable brokerage analytics dashboard for Whispyr AI, an AI real estate platform. Built high-density visualization pipelines for leads, WhatsApp chats, and agent conversion metrics.
+              Engineered the core dashboard customization engine for Whispyr AI, an AI real estate platform. Built dynamic widget configuration systems allowing brokerages to customize their KPI views, lead pipelines, and agent metrics.
             </p>
           </div>
 
