@@ -1,0 +1,21 @@
+name: Supabase Keep-Alive Heartbeat
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC (9:00 AM Cairo)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  ping-supabase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase Database via API Endpoint
+        run: |
+          # Ping the deployed portfolio keep-alive endpoint
+          curl -s -f -m 15 https://ammar-portflio.vercel.app/api/cron/keep-alive || echo "Portfolio endpoint pinged or pending custom domain"
+          
+          # Direct fallback ping using Supabase REST API
+          curl -s -f -m 15 \
+            -H "apikey: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}" \
+            "https://aiemdztrvpjbcqlgtcvr.supabase.co/rest/v1/projects?select=id&limit=1" || echo "Direct ping complete"
